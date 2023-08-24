@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Balaji Catering</title>
+    <link rel="icon" type="pics/jpg" href="pics/a.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;200;300;400;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="pics/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About US</h1>
+
+    </section>
+
+<!-- OUT OF THE BOX -->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Who We Are</h1>
+            <p>Balaji Catering is a family-owned and operated business that has been serving the community for over 10 years. We specialize in Indian cuisine, and our food is made with fresh, high-quality ingredients. We offer a variety of dishes to choose from, including vegetarian, vegan, and gluten-free options. We also cater events of all sizes, from small weddings to large corporate functions.</p>
+            <a href="blog.html" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+        <img src="pics/about.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+
+     <!-- FOOTER -->
+
+
+     <section class="footer">
+        <h4>Important!!</h4>
+        <p>25% advance on the day of booking. 50% should be paid before 15 days of the function. Remaining balance to be paid after the event.</p>
+        <p>Advance will not be refunded in any circumstances.</p>
+        <p>The rent for all the vessels Crockery, cutlery, etc & labour charges if any , to be bome by the party in the function hall.</p>
+        <p>Extra pplates will be charged fully.</p>
+        <p>Childrens will be charged as adults.</p>
+        <p>GST as applicable .</p>
+        <p>Party should take care of their items and belongings. We are not responsible for anything.</p>
+        <p>We are not responsible for any thefts or losts. We are not responsible for any natural Calamities.</p>
+        <p>Transport charge depends upon the distance. Additional counter will be charged extra.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <a href="https://www.instagram.com/bhukya_sharath_03_28/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sharath-naik-565392220/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+           <a href="https://www.youtube.com/@Poseidon_03/featured" target="_blank"> <i class="fa fa-youtube"></i></a>
+            <i class="fa fa-telegram"></i>
+        </div>
+        <div class="s"style="color: aliceblue;">
+            <div>Developed  By</div>
+            <div style="color: red;"> &nbsp;&nbsp;Bhukya Sharath Naik</div>
+        </div> </b>
+        <a href="l.html" target="_blank" style="text-align:center; color:aqua" >Terms and Conditions</a>
+    </section>
+
+<!-- JAVASCRPIT FOR TOGGLE MEMU -->
+<script src="index.js"></script>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+</body>
+</html>
+
